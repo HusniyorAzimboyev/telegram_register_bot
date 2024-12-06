@@ -114,7 +114,7 @@ def cancel(update, context):
 
 
 def main():
-    updater = Updater(token="7253041398:AAEb0yGrTvyrRc7E9_O5Uu0OvYFSkD8S3o8")
+    updater = Updater(token="your telegram bot token")
     dispatcher = updater.dispatcher
 
     conv_handler = ConversationHandler(
